@@ -1,0 +1,14 @@
+{
+  "name": "visit_jamaica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass style.scss style.css -w"
+  },
+  "author": "Tsahai Clahar",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
