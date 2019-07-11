@@ -9,7 +9,7 @@ const app = express()
 app.use("/", serveStatic (path.join(__dirname, "/public")))
 
 app.get("/", function(req, res) {
-    res.sendFile(__dirname + "/public/index-inline.html")
+    res.sendFile(__dirname + "/public/index.html")
 })
 
 const port = process.env.PORT || 5000
